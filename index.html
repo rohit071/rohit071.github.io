@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>The Dragon!</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <p>You are on a planet full of dragons. In front of you, You have a shotgun with one bullet only. This Bullet is can kill a dragon</p>
+<p>Your final mission is to go to other side of the tunnel</p>
+<p>You entered the tunnel</p>
+<p>you see two ways. On left way, their are bushes.</p>
+<p> The other way is clean and clear</p>
+
+<br />
+<p>Which way do you go to?</p>
+<p><a href="#cave1">I go in Bushes.</a></p>
+<p>or</p>
+<p><a href="#cave2">I go in Clear Way.</a></p>
+            </div>
+        </div>
+
+        <div id="cave1" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You go on the way with bushes.At the very end you saw a ladder and a gutter.</p>
+                <br />
+
+
+                <p>Which way do you go ?</p>
+                <p><a href="#stairs">I climb up the Stairs</a></p>
+                <p>or</p>
+                <p><a href="#gutter">I climb down the Gutter</a></p>
+        </div> 
+</div>
+        <div id="stairs" class="step slide" data-x="-1500" data-y="-1500">
+            <div class="slide-text">
+                <p>You are on the top of the  tunnel. The door of the ladder closes behind you.</p>
+                <p>You have two options. you can walk to left or right.</p>
+
+                <p>Which way do you go ?</p>
+                <p><a href="#left">I go LEFT</a></p>
+                <p>or</p>
+                <p><a href="#right">I go RIGHT</a></p>
+            </div>
+        </div>
+        
+        <div id="left" class="step slide" data-x="-3000" data-y="-1500">
+            <div class="slide-text">
+                <p>You turn Left. At the end the tunnel collapse .</p>
+                <br />
+
+
+                <p>You fall into a fire trap and die.</p>
+                
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+
+        </div>
+        <div id="right" class="step slide"  data-y="-1500">
+            <div class="slide-text">
+                <p>You turn right. At the end the tunnel the environment is full of Poisonous gas .</p>
+                <br />
+
+
+                <p>You  die due to suffocation.</p>
+
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+
+        </div>
+
+        
+        <div id="gutter" class="step slide" data-x="-1500" data-y="1500">
+            <div class="slide-text">
+                <p>You climb down the gutter. There are two doors.</p>
+                <p>The RED door and the BLUE Door.</p>
+                <br />
+                <p><a href="#rDoor">I go in Red door</a></p>
+                <p>or</p>
+                <p><a href="#bDoor">I go in Blue door</a></p>
+            </div>
+
+        </div>
+        <div id="rDoor" class="step slide"  data-y="-3000">
+            <div class="slide-text">
+                <p>The door closes behind you .</p>
+                <p>This is an empty room you are trapped forever.</p>
+                <br />
+
+
+                
+
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+
+        </div>
+        <div id="bDoor" class="step slide" data-x="-4500" data-y="-3000">
+            <div class="slide-text">
+                <p>The door closes behind you .</p><br />
+                <p>This ceiling falls on you. You die at the moment</p>
+                <br />
+
+
+                
+
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+
+        </div>
+        <div id="cave2" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You go on the clear way.  At the end of the way there are two buttons.</p>
+                <br />
+
+
+                <p>Which button do you press? ?</p>
+                <p><a href="#green">I Press the <green>GREEN button</green></a></p>
+                <p>or</p>
+                <p><a href="#blue">I Press the Blue Button</a></p>
+            </div>
+
+        </div>
+        <div id="green" class="step slide"  data-z="1500" data-x="1500">
+            <div class="slide-text">
+                <p>The Wall in front of you slides. You entered the room. Their is a fire dragon.</p><br />
+                <p>You kill it with the shotgun.</p><br />
+                <p>Its ashes creates a hole in the ground.</p><br />
+                Now you have two options. Yo can enter in that hole or you can open the door on right side of you.
+                <br />
+
+
+                <p>Where do you go?</p>
+                <p><a href="#hole">I go in the hole</a></p>
+                <p>or</p>
+                <p><a href="#dDoor">I open the door</a></p>
+            </div>
+
+        </div>
+        
+    <div id="hole" class="step slide" data-z="1500" data-x="1500" data-y="1500">
+        <div class="slide-text">
+            <p>Their is a door infront of you . But it is locked</p><br />
+            <p>It has a slot that looks like your gun.</p><br />
+            
+            <br />
+
+
+            <p>What do you do?</p>
+            <p><a href="#gun">I put my gun in the slot.</a></p>
+            
+        </div>
+
+    </div>
+        <div id="gun" class="step slide" data-z="3000" data-x="1500" data-y="1500">
+            <div class="slide-text">
+                <p>The door opens .</p>
+                <p>You Win . It is the dooe outsode the tunnel.</p>
+                <p><u>You Win</u></p>
+                <br />
+
+
+
+
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+
+        </div>
+        <div id="dDoor" class="step slide" data-z="1500" data-x="3000" data-y="1500">
+            <div class="slide-text">
+                <p>The door opens .</p>
+                <p>The Family of the dragon comes out of the door.</p>
+                <p><u>They eat you.</u></p>
+                <br />
+
+
+
+
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+
+        </div>
+        <div id="blue" class="step slide" data-z="-3000" data-x="1500">
+            <div class="slide-text">
+                <p>The wall on righ side of you slide open.</p><br />
+                <p>You entered the room</p><br />
+                Their is a musical instrument in the way. Now you have two options. 
+                <br />
+                <p>You can play instrument or keep walking.</p>
+
+
+                
+                <p><a href="#play">I play instument</a></p>
+                <p>or</p>
+                <p><a href="#walk">I keep walking</a></p>
+            </div>
+
+        </div>
+        <div id="play" class="step slide" data-z="-3000" data-x="-3000">
+            <div class="slide-text">
+                <p>you played the instrument .</p>
+                <p>It attracted the dragons.</p>
+                <p><u>They came and killled You</u></p>
+                <br />
+
+
+
+
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+        </div>
+        <div id="walk" class="step slide" data-z="-4500" data-x="-1500">
+            <div class="slide-text">
+                <p>At the end music was playing .</p>
+                <p>It hypnotized you.</p>
+                <p><u>They fall in never ending sleep.</u></p>
+                <br />
+
+
+
+
+                <p><a href="#intro">Start Over</a></p>
+            </div>
+        </div>
+        </div>
+    <!-- JavaScript Section -->
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+
+</body>
+</html>
