@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿<!--Author : Rohit Kumar
+    Source File Name: index.html
+    Last Modified by : Rohit Kumar
+    Date Of last modification: 2015-01-30
+    Revision History : Project with full functionality v01
+                        Removed typing errors v01.1
+                        Included INternal documentationv01.2--> 
+<!--The end node is the ending point of the game. After that player has to restart game.-->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,7 +15,10 @@
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
+    
+    
     <div id="impress">
+        
         <div id="intro" class="step slide">
             <div class="slide-text">
                 <p>You are on a planet full of dragons. In front of you, You have a shotgun with one bullet only. This Bullet is can kill a dragon</p>
@@ -22,7 +33,7 @@
 <p>or</p>
 <p><a href="#cave2">I go in Clear Way.</a></p>
             </div>
-        </div>
+        </div><!--End Intro. Gives a brief introduction. #cave1 is for bushes. #cave2 is for lear way. -->s
 
         <div id="cave1" class="step slide" data-x="-1500">
             <div class="slide-text">
@@ -35,7 +46,7 @@
                 <p>or</p>
                 <p><a href="#gutter">I climb down the Gutter</a></p>
         </div> 
-</div>
+</div><!--End cave 1. #stairs to clinb stairs. #gutter to go down the gutter.-->
         <div id="stairs" class="step slide" data-x="-1500" data-y="-1500">
             <div class="slide-text">
                 <p>You are on the top of the  tunnel. The door of the ladder closes behind you.</p>
@@ -47,7 +58,7 @@
                 <p><a href="#right">I go RIGHT</a></p>
             </div>
         </div>
-        
+        <!--end stairs. #left to choose the left path and # right is to choose the right path.-->
         <div id="left" class="step slide" data-x="-3000" data-y="-1500">
             <div class="slide-text">
                 <p>You turn Left. At the end the tunnel collapse .</p>
@@ -59,7 +70,7 @@
                 <p><a href="#intro">Start Over</a></p>
             </div>
 
-        </div>
+        </div><!--End left. Only link to intro is given because this is the end node-->
         <div id="right" class="step slide"  data-y="-1500">
             <div class="slide-text">
                 <p>You turn right. At the end the tunnel the environment is full of Poisonous gas .</p>
@@ -71,7 +82,7 @@
                 <p><a href="#intro">Start Over</a></p>
             </div>
 
-        </div>
+        </div><!--end right. This is  end node.-->
 
         
         <div id="gutter" class="step slide" data-x="-1500" data-y="1500">
@@ -84,7 +95,7 @@
                 <p><a href="#bDoor">I go in Blue door</a></p>
             </div>
 
-        </div>
+        </div><!--End gutter. from here #rdoor to red door #bDoor is to go in blue door.-->
         <div id="rDoor" class="step slide"  data-y="-3000">
             <div class="slide-text">
                 <p>The door closes behind you .</p>
@@ -97,7 +108,7 @@
                 <p><a href="#intro">Start Over</a></p>
             </div>
 
-        </div>
+        </div><!--End rdoor. This is an end node-->
         <div id="bDoor" class="step slide" data-x="-4500" data-y="-3000">
             <div class="slide-text">
                 <p>The door closes behind you .</p><br />
@@ -110,7 +121,7 @@
                 <p><a href="#intro">Start Over</a></p>
             </div>
 
-        </div>
+        </div><!--End bDoor. This is an end node.-->
         <div id="cave2" class="step slide" data-x="1500">
             <div class="slide-text">
                 <p>You go on the clear way.  At the end of the way there are two buttons.</p>
@@ -123,7 +134,7 @@
                 <p><a href="#blue">I Press the Blue Button</a></p>
             </div>
 
-        </div>
+        </div><!--End cave 2. #grren to press green button #blue to press blue button.-->
         <div id="green" class="step slide"  data-z="1500" data-x="1500">
             <div class="slide-text">
                 <p>The Wall in front of you slides. You entered the room. Their is a fire dragon.</p><br />
@@ -139,7 +150,7 @@
                 <p><a href="#dDoor">I open the door</a></p>
             </div>
 
-        </div>
+        </div><!--End green. #hole to enter the hole. # door to open the right door.-->
         
     <div id="hole" class="step slide" data-z="1500" data-x="1500" data-y="1500">
         <div class="slide-text">
@@ -154,7 +165,7 @@
             
         </div>
 
-    </div>
+    </div><!--End hole. This is the winning door son only one condition -->
         <div id="gun" class="step slide" data-z="3000" data-x="1500" data-y="1500">
             <div class="slide-text">
                 <p>The door opens .</p>
@@ -168,7 +179,7 @@
                 <p><a href="#intro">Start Over</a></p>
             </div>
 
-        </div>
+        </div><!--end gun. The game ends after this.-->
         <div id="dDoor" class="step slide" data-z="1500" data-x="3000" data-y="1500">
             <div class="slide-text">
                 <p>The door opens .</p>
@@ -182,7 +193,7 @@
                 <p><a href="#intro">Start Over</a></p>
             </div>
 
-        </div>
+        </div><!--ENd ddoor. This is an end node.-->
         <div id="blue" class="step slide" data-z="-3000" data-x="1500">
             <div class="slide-text">
                 <p>The wall on righ side of you slide open.</p><br />
@@ -198,7 +209,7 @@
                 <p><a href="#walk">I keep walking</a></p>
             </div>
 
-        </div>
+        </div><!--End blue. #play to play the instrument. #walk to keep walking.-->
         <div id="play" class="step slide" data-z="-3000" data-x="-3000">
             <div class="slide-text">
                 <p>you played the instrument .</p>
@@ -211,7 +222,7 @@
 
                 <p><a href="#intro">Start Over</a></p>
             </div>
-        </div>
+        </div><!--end play. This is an end node-->
         <div id="walk" class="step slide" data-z="-4500" data-x="-1500">
             <div class="slide-text">
                 <p>At the end music was playing .</p>
@@ -224,7 +235,7 @@
 
                 <p><a href="#intro">Start Over</a></p>
             </div>
-        </div>
+        </div><!--end walk. This is an end node.-->
         </div>
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
